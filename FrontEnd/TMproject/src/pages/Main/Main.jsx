@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css';
-import MainPanel from '../component/component.js'
+import MainPanel from '../../component/component.js'
 
 class Main extends React.Component {
   render() {
