@@ -1,5 +1,6 @@
 import React from 'react';
 import './Main.css';
+import MainPanel from '../component/component.js'
 
 class Main extends React.Component {
   render() {
@@ -11,21 +12,7 @@ class Main extends React.Component {
            <div className = 'main'>
             <div className = 'geoSelect'>지역을 선택해주세요</div>
             <div className = 'geoRecommendSelect'>추천받고 싶은 지역을 선택하세요</div>
-            <div className = 'mainPanel'>
-              <div className = 'Panel'></div>
-              <div className = 'Panel'></div>
-              <div className = 'Panel'></div>
-              <div className = 'Panel'></div>
-              <div className = 'Panel'></div>
-              <div className = 'Panel'></div>
-              <div className = 'Panel'></div>
-              <div className = 'Panel'></div>
-              <div className = 'Panel'></div>
-              <div className = 'Panel'></div>
-              <div className = 'Panel'></div>
-              <div className = 'Panel'></div>
-
-            </div>
+            <MainPanel/>
            </div>
         </div>
     );
